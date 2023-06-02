@@ -24,3 +24,11 @@ You should develop your touch typing skills through the term. In particular, you
 
 Unfortunately (for me) I haven't updated this table, but I had actually done touch typing practice daily
 during the whole module period (and I am planning to continue).
+
+#### Edclub stats on 02/06/2023
+
+![Screenshot_of_stats](./edclub_stats_2023-06-02.png)
+
+#### Edclub progress on 02/06/2023
+
+![Screenshot_of_stats](./edclub_progress-06-02.png)
