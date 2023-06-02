@@ -31,4 +31,4 @@ during the whole module period (and I am planning to continue).
 
 #### Edclub progress on 02/06/2023
 
-![Screenshot_of_stats](./edclub_progress-06-02.png)
+![Screenshot_of_stats](./edclub_progress_2023-06-02.png)
