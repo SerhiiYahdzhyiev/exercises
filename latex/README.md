@@ -15,3 +15,4 @@ You should build your professional CV using LaTeX. In particular, you should do 
 ---
 
 You can find my latex cv in the `latex-cv-src` folder.
+I've used [ModerCV](https://www.latextemplates.com/template/moderncv-cv-and-cover-letter) template for it.
