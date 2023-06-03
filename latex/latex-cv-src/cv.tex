@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Serhii} % Your first name
+\familyname{Yahdzhyiev} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Humperdinck Straße, 14}{Boppard, Rheinland-Pfalz, 56154}
+\mobile{(0)160 326 19 13}
+\email{syahdzhyiev@gmail.com}
+\homepage{https://sergeyyahdzhyiev.github.io/}{homepage} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+%
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+% \makelettertitle % Print letter title
+%
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+%
+% \makeletterclosing % Print letter signature
+%
+% \newpage
+%
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2022--Present}{Bachelor of Software Engineering}{GISMA Business School}{Potsdam, Germany}{}{}  % Arguments not required can be left empty
+\cventry{2012--2016}{Junior Specialist in Musical Arts}{College of Arts and Culture}{Odessa, Ukraine}{}{}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{IT Field}
+
+\cventry{2021--Present}{ Fullstack Software Developer}{\textsc{Periodix, Inc.}}{Dnipro, Ukraine}{}{
+\newline{}\newline{}
+\begin{itemize}
+\item Developed front-end modules and Single Page Applications using HTML, CSS, Javascript/Typescript, React, Node.js and JQuery 
+\item Developed back-end services and REST APIs using Node.js, Express.js, Python, Flask and FastAPI
+\item Developed a system of training, storing and reusing the prediction models with Scikit-learn, Transformers and Python
+\item Developed text categorization models using SpaCy and Python
+\item Maintained server instances and clusters in the Cloud using AWS, DigitalOcean and Oracle Cloud Infrastructure
+\item Wrote unit-,integrational-, and end-to-end-tests for all the modules, services and applications mentioned above
+\item Set up the CI/CD workflows using GitHub Actions and GitLab (YAML)
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2020--2021}{Sales Department Representative}{\textsc{Periodix, Inc.}}{Dnipro, Ukraine}{}{
+\newline{}\newline{}
+\begin{itemize}
+\item Wrote cover letters for potential clients on daily basis
+\item Managed statistics of the leadgeneration processes
+\item Communicated with clients
+\end{itemize}}
+
+
+%------------------------------------------------
+
+\subsection{Musical}
+
+\cventry{2020}{Showband Musician (Drummer)}{P\&O Australia}{Australia}{}{
+\newline{}\newline{}
+\begin{itemize}
+\item Played production shows with guest artists
+\item Played jazz and thematical sets
+\item Participated in trainings and drills on board of the vessel
+\end{itemize}}
+
+\cventry{2019}{Showband Musician (Drummer)}{Phoenix Reisen}{Germany}{}{
+\newline{}\newline{}
+\begin{itemize}
+\item Played production shows
+\item Played dancing sets
+\item Participated in trainings and drills on board of the vessel
+\end{itemize}}
+
+\cventry{2018}{Showband Musician (Drummer)}{Phoenix Reisen}{Germany}{}{
+\newline{}\newline{}
+\begin{itemize}
+\item Played production shows
+\item Played dancing sets
+\item Participated in trainings and drills on board of the vessel
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{IT skills}
+
+\cvitem{Basic}{C++, Redux Saga, YAML, Lua}
+\cvitem{Intermediate}{MongoDB, PostgresQL, SQL, Redux, Flask, FastAPI, Express.js, REST API, Bash, Cloud Computing, JQuery, Algorythms, Data Structures, CI/CD}
+\cvitem{Advanced}{Javascript/Typescript, Python, Node.js, React.js, CSS3, HTML5, Linux, Git}
+
+\section{Musical skills}
+
+\cvitem{Basic}{Composition, Arrangement, Conducting}
+\cvitem{Intermediate}{Sight-Reading, Guitar, Bass, Piano, Improvisation}
+\cvitem{Advanced}{Drums and Percussion}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Communication Skills}
+%
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Russian}{Native (Bilingual)}{}
+\cvitemwithcomment{Ukraininan}{Native (Bilingual)}{}
+\cvitemwithcomment{English}{Fluent}{Conversationally fluent}
+\cvitemwithcomment{German}{Basic}{}
+\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+\cvitemwithcomment{French}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Video Production}{Sound Production}
+\cvlistdoubleitem{Video Games}{Movies}
+\cvlistdoubleitem{Art}{Design}
+\cvlistitem{Science Fiction}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
