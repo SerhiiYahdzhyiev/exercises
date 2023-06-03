@@ -14,7 +14,7 @@ You should build your personal web page using HTML and CSS. In particular, you s
 
 ---
 
-You can check my old portfolio website on [this link](https://sergeyyahdzhyiev.github.io/)
+You can check my old portfolio website on [this link](https://sergeyyahdzhyiev.github.io/).
 
 The source code is [here](https://github.com/SergeyYahdzhyiev/sergeyyahdzhyiev.github.io).
 
