@@ -15,7 +15,7 @@ You should develop your touch typing skills through the term. In particular, you
 | Date | Words per Minute | Error Rate |
 | ---- | ---------------- | ---------- |
 |06-06-2023|55.2|2.72|
-|      |                  |            |
+|12-06-2023|57.2|1.57|
 |      |                  |            |
 |      |                  |            |
 |      |                  |            |
