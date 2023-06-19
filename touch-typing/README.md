@@ -16,7 +16,7 @@ You should develop your touch typing skills through the term. In particular, you
 | ---- | ---------------- | ---------- |
 |06-06-2023|55.2|2.72|
 |12-06-2023|57.2|1.57|
-|      |                  |            |
+|19-06-2023|57.2|1.93|
 |      |                  |            |
 |      |                  |            |
 
